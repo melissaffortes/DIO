@@ -3,7 +3,7 @@
 
 Nome: Melissa
 
-👩‍💻 Estudante em desenvolvimento em Swift 
+👩‍💻 Estudante de desenvolvimento em Swift 🖥️
 
 ## Social Network
 
