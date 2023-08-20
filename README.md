@@ -3,7 +3,7 @@
 
 Nome: Melissa
 
-👩‍💻 Estudante de desenvolvimento em Swift 🖥️
+👩🏻‍💻Estudante de desenvolvimento em Swift 🖥️
 
 ## Social Network
 
@@ -11,6 +11,6 @@ Nome: Melissa
 | ----------------- | ------------------------------------------------------------------ |
 
 
-## Hability
+## Hability 📱
 
 ![Swift](https://img.shields.io/badge/Swift-000?style=for-the-badge&logo=swift)
