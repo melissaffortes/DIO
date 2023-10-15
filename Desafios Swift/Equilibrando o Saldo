@@ -1,0 +1,16 @@
+func main() {
+    
+    var saldoAtual = Float(readLine()!)!
+    var valorDeposito = Float(readLine()!)!
+    var valorRetirada = Float(readLine()!)!
+
+    //TODO: Calcular o saldo atualizado de acordo com a descrição deste desafio.
+    
+    var calculo = saldoAtual + valorDeposito - valorRetirada
+
+
+  //TODO: Imprimir o a saída de conforme a tabela de exemplos (uma casa decimal).
+  print("Saldo atualizado na conta:", calculo)
+}
+
+main()
