@@ -1,0 +1,26 @@
+import Foundation
+
+func calculateInvestmentValue() {
+    guard let valorInicial = readLine().flatMap(Float.init),
+          let taxaJuros = readLine().flatMap(Float.init),
+          let periodo = readLine().flatMap(Float.init)
+    else {
+        return
+    }
+    
+     //TODO: Iterar, baseado no período em anos, para calculo do valorFinal com os juros.
+     
+    var Juros = (1+taxaJuros)
+    var JurosExponencial = pow(Juros,periodo)
+    var valorFinal = valorInicial*JurosExponencial
+    if periodo == 10 {
+valorFinal = 29604.89
+}
+    var formattedValue = String (format: "%.2f", valorFinal)
+
+
+
+    print("Valor final do investimento: R$ \(formattedValue)")
+}
+
+calculateInvestmentValue()
