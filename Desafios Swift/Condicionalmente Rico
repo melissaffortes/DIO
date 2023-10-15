@@ -1,0 +1,20 @@
+import Foundation
+
+func main() {
+    // Entrada de dados
+    let saldoTotal = Int(readLine()!)!
+    let valorSaque = Int(readLine()!)!
+
+//TODO: Criar as condições necessárias para impressão da saída, vide tabela de exemplos.
+
+  var saldoDisponível = saldoTotal - valorSaque
+    
+    if saldoTotal >= valorSaque {
+  print ("Saque realizado com sucesso. Novo saldo: \(saldoDisponível)")
+} else{
+  print ("Saldo insuficiente. Saque nao realizado!")
+}
+
+}
+
+main()
