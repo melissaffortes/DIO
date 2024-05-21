@@ -1,9 +1,8 @@
 # About Me 💬
 
+Melissa
 
-Nome: Melissa
-
-👩🏻‍💻Estudante de desenvolvimento em Swift 🖥️
+👩🏻‍💻Swift Developer Student 🖥️
 
 ## Social Network
 
